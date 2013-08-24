@@ -1,0 +1,17 @@
+{
+  "name"              : "pbapi",
+  "description"       : "Promise Backed API Demo",
+  "version"           : "0.0.1",
+  "engines"           : {
+    "node"            : ">=0.8.0"
+  },
+  "dependencies"      : {
+    "bond.js"           : "*"
+  },
+  "scripts"           : {
+    "test"              : "node_modules/venus/bin/venus run -t test/unit -n"
+  },
+  "devDependencies": {
+    "venus"             : "2.1.10"
+  }
+}
